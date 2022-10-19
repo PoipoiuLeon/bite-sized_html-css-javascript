@@ -1,28 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Web development</h1>
+    <h2>HTML</h2>
+    <p id="first-p">I want to learn coding</p>
+    <img src="assets/background.png"/>
+    <p>this is my <a href="https://github.com/PoipoiuLeon" title="My Github">GitHub</a></p>
+    <p>Link to <a href="components/new_paage.vue">another page</a> </p>
+    <p>Link to <a href="components/Lists.vue">Lists page</a> </p>
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'App',
+<script>export default {
   components: {
-    HelloWorld
+
   }
 }
 </script>
 
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  h1{
+    color:red;
+  }
+  p {
+    font-size: 15px;
+  }
+  #first-p{
+    color: green;
+  }
 </style>
